@@ -1,90 +1,122 @@
-# Project XYZ
-
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
-
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
+# Hackathon Project - Online Retail Business Analysis
+
+
+## Introduction
+This analysis project will focus on customer behaviour concerning one online business. The business sells a wide variety of products from low value to high value. The business aims to make a profit and increase its share of the very competitive online market. The growth of the business may be impeded by trade agreements, inflation, and interest rates of which affect the level of spending.
+
+## About the business
+ The business has many customers from various geographic regions across the world. The majority of the sales revenue was generated in the UK domestic market, which may reflect that it has become more established and familiar to customers in the UK. However, the dataset reveals a different insight elsewhere across the world, where customer spending is not so great. 
+
+|__Region__|__Total Revenue__|
+|----------|-----------------|
+|UK|~£90M|
+|Europe|~£1.4M|
+|Oceania|~£138K|
+|Asia|~£74K|
+|Other|~£28K|
+|Middle East|~£10K|
+|North America|~£7K|
+
+* The table above reflects the income streams and their respective amounts,
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+* The "Online Retail Transaction" dataset contains information about customers' transactions who are located in various countries across the world. The dataset features allow the business to understand customer spending behaviour and the spending trends from nation to nation. In terms of products, they vary and the demand for which will be affected by economic factors. The dataset consists of one table from which data insights will be generated.
 
 
-## Business Requirements
-* Describe your business requirements
+## Business Requirements & Purpose
 
+* It is through the insights of this project that we can identify market segments based on customer spending amounts and frequency, location and the type of products they have purchased. This will allow this business to inform customers about new products and introduce pricing strategies to encourage customers to spend. This will enable this online business to:
 
-## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+* Improve customer retention
+
+* Identify sales trends
+
+* Predict product demand
+
+* Inform customers about new products, so they continue to spend
+
+* Inform customers about offers who do not spend so frequently
+
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+* The plan followed the waterfall methodology in the following ways:
+* Requirements: The project outline was defined and goals identified along with respective roles
+* Design: The dataset would be cleaned and additional columns were added 
+* Development: The data was manipulated to generate the set insights into customer behaviour
+* Testing:  Ensuring the vsiualisations were inline with project objectives
+* Deployment: creation of the visualisations in Jupyter notebooks and Power  BI dashboard
+* Maintenance: storing of data and visualisations in appropriate files to ensure maintainence and integrity.
 
+### GANNT Chart
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
+The rationale behind the visualisations are as follows:
+* To understand the consumer behaviour in different global geographic regions
+* To understand the size of the customer base for this online business
+* To improve upon sales revenue in all countries by using marketing and pricing strategies
+* To identify customers who spend the least and the most
+* To identify popular and unpopular products in order to increase sales
+
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+
+The business aims to increase sales turnover and market share were at the forefront of our minds. Therefore, making sure the data was clean from duplicates, negative values and missing entries. This would give us a clear picture and insight into how the business was trading.
+
+There is only one table, so we were limited to what we could glean from the data. Therefore, we had to create additional columns and group column headings to generate further insights. The was no economic data or information on how long the business had been trading online.
+
+AI tools helped in coding for Power BI to create new column headings and solve issues with the virtual environment.
+
 
 ## Ethical considerations
-* Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
+
+Privacy was maintained by using ID's for each customer. All data is stored and protected inline with international data legislation.
+
 
 ## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
-* How were data insights communicated to technical and non-technical audiences?
-* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
+* Dashboard pages are as follows:
+Line chart – 
+Line chart and trendline
+Bar chart -
+Heat map - 
 
-## Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
+* How were data insights communicated to technical and non-technical audiences?
+The language that was used was explained in layman's terms and accompanied by appropriate visualisations for those who were non-technical, so that they could get an initial insight and then be more informed using a variety of visualisations. For the technical audiences, there was more use of technical terminology and more involved visualisations.
+
+
+* The dashboard includes a variety of plots ranging from bar charts to a report giving a more in-depth analysis.
+
+
+
+
+
 
 ## Development Roadmap
 * What challenges did you face, and what strategies were used to overcome these challenges?
+The main challenge was setting up the virtual environment after cloning the repository. PowerShell worked for some, while Git Bash was used otherwise.
+
 * What new skills or tools do you plan to learn next based on your project experience? 
 
-## Deployment
-### Heroku
 
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
 
 
 ## Main Data Analysis Libraries
 * Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
-
+* Pandas
+* Plotly
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+* Kaggle - Online Retail Dataset
+* Git Working Practice - Code Institute
+* LMS  - Code Institute
 
-### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
 
 
 
 ## Acknowledgements (optional)
-* Thank the people who provided support through this project.
+* Emma Lamont, Sylvester, Richard and Ray
