@@ -50,7 +50,7 @@ This analysis project will focus on customer behaviour concerning one online bus
 * Deployment: creation of the visualisations in Jupyter notebooks and Power  BI dashboard
 * Maintenance: storing of data and visualisations in appropriate files to ensure maintainence and integrity.
 
-### GANNT Chart
+### GANTT Chart
 
 ![Gantt Chart](Gannt_chart/gannt_chart.png)
 
