@@ -58,11 +58,31 @@ This analysis project will focus on customer behaviour concerning one online bus
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
 The rationale behind the visualisations are as follows:
-* To understand the consumer behaviour in different global geographic regions
-* To understand the size of the customer base for this online business
-* To improve upon sales revenue in all countries by using marketing and pricing strategies
-* To identify customers who spend the least and the most
-* To identify popular and unpopular products in order to increase sales
+* To understand the consumer behaviour in different global geographic regions. The example shows the UK & EU.
+
+![UK vs EU Sales Revenue Comparisons](Power_BI_Viz/uk_eu_sales_revenue_comparisons.png)
+
+
+* To understand the size of the loyal customer base for this online business, is shown in the graphic.
+![Top Customers by Number of Orders](Power_BI_Viz/top_customers_by_number_of_orders.png)
+
+
+The purchase frequency is reflected in this day and hour  heatmap
+![Sales Heatmap by Day and Hour](Power_BI_Viz/sales_heatmap_by_day_and_hour.png)
+
+* To identify popular products by revenue
+
+![Top 10 Products by Revenue](Power_BI_Viz/top_10_products_by_revenue.png)
+
+
+
+ ## Marketing and Pricing Strategies and Sales Improvement
+ * The business operates online so the 5ps will be used to devise marketing and business strategies.
+ * Price - price skimming for those customers who are loyal and Buy One Get One Free for those customers who purchase infrequently.
+ * Product - highlight the positive aspects of the products through mailshots
+ * Place - improve the distribution channels and logistics
+ * Promotion - send emails to customers and include questionnaires to get feedback
+ * People  - improve customer service and have multi-lingual trained staff
 
 
 ## Analysis techniques used
