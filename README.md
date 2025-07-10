@@ -114,20 +114,23 @@ Privacy was maintained by using ID's for each customer. All data is stored and p
 
 
 ## Dashboard Design
-* Dashboard pages are as follows:
-Line chart – 
-Line chart and trendline
-Bar chart -
-Heat map - 
+* Dashboard content:
+The cleaned data was from the online retail dataset and the various column headings were used by the chosen visualisation features in Power BI. These included:
+* Q & A 
+* Key Influencers
+* Map
+* Matrix 
+* Date slider
+
+* The main focus is on products sold and there quantity in various parts of the world and the sales revenue generated.
+* The interface is broken up with blue horizontal bars to provide focus to each feature.
 
 * How were data insights communicated to technical and non-technical audiences?
+
 The language that was used was explained in layman's terms and accompanied by appropriate visualisations for those who were non-technical, so that they could get an initial insight and then be more informed using a variety of visualisations. For the technical audiences, there was more use of technical terminology and more involved visualisations.
 
 
-* The dashboard includes a variety of plots ranging from bar charts to a report giving a more in-depth analysis.
-
-
-
+* The dashboard includes a variety of interactive features to provide the user with insights and a more in-depth analysis. This is particularly useful to a non-technical individual in the workplace.
 
 
 
@@ -136,8 +139,7 @@ The language that was used was explained in layman's terms and accompanied by ap
 The main challenge was setting up the virtual environment after cloning the repository. PowerShell worked for some, while Git Bash was used otherwise.
 
 * What new skills or tools do you plan to learn next based on your project experience? 
-
-
+* The creation of the dashboard, using Power BI, enabled new learning and enhanced the project experience.
 
 
 ## Main Data Analysis Libraries
