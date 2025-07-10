@@ -84,8 +84,22 @@ The purchase frequency is reflected in this day and hour  heatmap
  * Promotion - send emails to customers and include questionnaires to get feedback
  * People  - improve customer service and have multi-lingual trained staff
 
+## Dashboard
 
-## Analysis techniques used
+![Dashboard Visualization](Dashboard/dashboard_vizualisation.png)
+
+
+The features of the interactive dashboard include:
+* Q & A - Where the user can ask questions about the data.
+* Key Influencers - This highlights what affects sales revenue.
+* Map - Highlights where in the world sales transactions are being generated.
+* Matrix - Highlights which items are selling.
+* Date Slider - Narrows down sales transactions for a given period of time.
+
+* Please click on the Dashbaord folder in the repository to use the dashboard.
+
+
+## Analysis techniques 
 
 The business aims to increase sales turnover and market share were at the forefront of our minds. Therefore, making sure the data was clean from duplicates, negative values and missing entries. This would give us a clear picture and insight into how the business was trading.
 
